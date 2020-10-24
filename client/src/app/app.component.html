@@ -1,0 +1,11 @@
+<div>
+    <h1>{{ title }} app is running!</h1>
+
+    <div *ngFor="let item of examples; let i = index">
+        <h2>Example {{i+1}}:</h2>
+        <textarea #box class="text_{{i+1}}" (keyup)="0" rows="10" cols="100" >{{item}}</textarea>
+        <button (click) = "sendTurtle($event, box.value, i+1)">Transform</button>
+        <textarea class="turtle_{{i+1}}" rows="10" cols="100"></textarea>         
+    </div>
+    
+</div>

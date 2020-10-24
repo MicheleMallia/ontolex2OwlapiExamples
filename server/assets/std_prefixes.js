@@ -1,0 +1,20 @@
+module.exports= {
+    "ontolex": "<http://www.w3.org/ns/lemon/ontolex#>",
+    "synsem" : "<http://www.w3.org/ns/lemon/synsem#>",
+    "decomp": "<http://www.w3.org/ns/lemon/decomp#>",
+    "vartrans" : "<http://www.w3.org/ns/lemon/vartrans#>",
+    "lime": "<http://www.w3.org/ns/lemon/lime#>",
+    "rdf": "<http://www.w3.org/1999/02/22-rdf-syntax-ns#>",
+    "rdfs" : "<http://www.w3.org/2000/01/rdf-schema#>",
+    "owl": "<http://www.w3.org/2002/07/owl#>",
+    "xsd": "<http://www.w3.org/2001/XMLSchema#>",
+    "skos": "<http://www.w3.org/2004/02/skos#>",
+    "dbr": "<http://dbpedia.org/resource/#>",
+    "dbo": "<http://dbpedia.org/ontology/#>",
+    "void": "<http://rdfs.org/ns/void#>",
+    "lexinfo": "<http://www.lexinfo.net/ontology/2.0/lexinfo#>",
+    "semiotics": "<http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#>",
+    "oils": "<http://lemon-model.net/oils#>",
+    "dct" : "<http://purl.org/dc/terms/#>",
+    "provo": "<http://www.w3.org/ns/prov#>"
+}
